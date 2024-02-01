@@ -1,0 +1,63 @@
+Advanced networking command 
+myenv\Scripts\activate 
+
+
+ipconfig // config the IP address
+
+nslookup //  command for troubleshooting for server
+
+ping www.hostname.com    or pathmapping www.hostname.com
+
+netstat   connections
+
+arp    :  address resulution protocol
+
+
+systeminfo
+
+
+netsh /?   >> help command     netsh wlan /?        
+
+
+// Port Scanning 
+
+
+netstat -an
+
+netstat -ab
+
+netstat -a
+
+netstat -at
+
+#List of all UDP Ports
+netstat -au
+netstat -na | find "8080"
+
+netstat -na | grep "8080"
+
+netstat -na | Select-String "8080"
+
+
+https://virusshare.com/hashes     hash sample 
+
+
+Kali  - command - name=that - hash 
+
+
+
+// hash collision 
+
+common use : sha-256(bitcoin) // md5 hash
+
+##Storing of junk files
+
+1.temp
+2.%temp%
+3.prefetch
+
+
+
+
+#python -m venv myenv
+#myenv\Scripts\activate 
